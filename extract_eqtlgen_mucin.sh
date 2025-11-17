@@ -11,7 +11,7 @@
 
 cd /data/gen1/reference/eqtlgen
 > /scratch/gen1/yz735/updated_coloc/eqtlgen_mucin.txt
-zcat 2019-12-11-cis-eQTLsFDR-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz | awk '$3 == "11" && $2 >= 1012240 && $2 <= 1295601'  >> /scratch/gen1/yz735/updated_coloc/eqtlgen_mucin.txt
+zcat 2019-12-11-cis-eQTLsFDR-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz | awk '$3 == "11" && $4 >= 1012240 && $4 <= 1295601'  >> /scratch/gen1/yz735/updated_coloc/eqtlgen_mucin.txt
 
 hostname
 date
