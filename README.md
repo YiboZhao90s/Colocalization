@@ -13,3 +13,5 @@ Colocalization Analysis on Moderate-Severe Asthma GWAS signals and xQTLs
 - eqtlgen N = 87377 (b37)
 
 # GWAS 
+- GWAS2019 N = 4237 (b37)
+- GWAS2022 N = 3223 (b38)
