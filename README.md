@@ -1,7 +1,8 @@
 # Colocalization
-Colocalization Analysis on Moderate-Severe Asthma GWAS signals and xQTLs
+Colocalization Analysis on Moderate-Severe Asthma GWAS signals and xQTLs. This is part of WP1 of MRC grant (the MuCoSA project) at University of Leicester
 
-# Meta-QTL
+# Data Description
+## QTL
 - GTExb38Lung_mucin N = 99268 (b38)
 - GTExb38Blood_mucin N = 109537 (b38)
 - GTExb37Lung_mucin N = 83598 (b37)
@@ -12,6 +13,11 @@ Colocalization Analysis on Moderate-Severe Asthma GWAS signals and xQTLs
 - lungeQTL_mucin N = 165826 (unknown source and reference genome, removed)
 - eqtlgen N = 87377 (b37)
 
-# GWAS 
+## GWAS 
 - GWAS2019 N = 4237 (b37)
 - GWAS2022 N = 3223 (b38)
+
+# Main Workflow
+1. Generate a "meta-QTL" including all QTL files
+2. Add b38 or b37-based position into QTL files
+3. Colocalization between QTLs and 2 GWAS separately
