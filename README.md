@@ -18,6 +18,6 @@ Colocalization Analysis on Moderate-Severe Asthma GWAS signals and xQTLs. This i
 - GWAS2022 N = 3223 (b38)
 
 # Main Workflow
-1. Generate a "meta-QTL" including all QTL files
-2. Add b38 or b37-based position into QTL files
-3. Colocalization between QTLs and 2 GWAS separately
+1. Generate a "meta-QTL" including all QTL files (R_meta_QTL.R)
+2. Add b38 or b37-based position into QTL files (R_lifeover_QTL.R)
+3. Colocalization between QTLs and 2 GWAS separately (R_coloc_noLD.R)
