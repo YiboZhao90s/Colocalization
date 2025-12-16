@@ -21,3 +21,4 @@ Colocalization Analysis on Moderate-Severe Asthma GWAS signals and xQTLs. This i
 1. Generate a "meta-QTL" including all QTL files (R_meta_QTL.R)
 2. Add b38 or b37-based position into QTL files and reformat for automatic pipeline (R_lifeover_QTL.R, R_reformat.R)
 3. Colocalization between QTLs and 2 GWAS separately (R_coloc_GTEx.R, R_coloc_pQTL.R, R_coloc_scQTL.R)
+4. Make mirror plots for significant colocalizations (R_mirror_plot.R)
